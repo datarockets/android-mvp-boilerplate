@@ -70,12 +70,16 @@ kapt {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile "com.google.dagger:dagger:$versions.dagger"
+    compile dagger
     kapt daggerCompiler
+    compile butterKnife
+    kapt butterKnifeCompiler
     compile kotlin
+    compile rxLibs
     compile supportLibs
     compile networkLibs
+    compile timber
+    debugCompile leakCanary
     kaptTest daggerCompiler
     kaptAndroidTest daggerCompiler
     testCompile unitTestLibs
