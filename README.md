@@ -18,3 +18,7 @@ The project contains these libraries:
 - [Android SDK](http://developer.android.com/sdk/index.html)
 - Android N [(API 25)](http://developer.android.com/tools/revisions/platforms.html)
 - Android SDK Tools and build tools
+
+## Authors
+- The original author of the architecture is [Joe Birch](https:/github.com/hitherejoe)
+- The original architecture by him was adapter to our needs
